@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <p>here for backgroung color universal selector(*) is applied</p>
+        <h1>HEADING 1.1</h1>
+        <h1>HEADING 1.2</h1>
+        <h1>HEADING 1.3</h1>
+        <h1>HEADING 1.4</h1>
+        <h1>HEADING 1.5</h1>
+        <p>Here for heading tag element selector is applied</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <div class="cls">
+            <h3>HEADING 2.1</h3>
+            <P>here class selector is applied</P>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div class="cls">
+            <h3>HEADING 2.2</h3>
+            <P>class selector is applied </P>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div class="cls" id="id">
+            <h3>HEADING 2.3</h3>
+            <P>here id selector is applied along with class selector but css selects the id selector bcoz id has higher
+                priority than class</P>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div>
+            <h5 class="cls1" id="id1" style="color:darkgoldenrod;">HEADING 5</h5>
+            <p>here on heading 5 element all selector is applied such as id,class,element and inline . but css selects
+                only one of them i.e inline selector as bcoz inline has higher priority than all others selectors</p>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <p>pseudo class is applied here</p>
+        <button>Click here!</button>
+        <p id="id3">this is paragraph</p>
+    </section>
+    <hr>
+    <section>
+        <p>Psedo element is applied here on first line of paragraph tag</p>
+        <p id="id4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi sunt molestiae voluptatum.
+            Dolores, ea repellat temporibus vero suscipit recusandae. Et accusamus labore molestias, cupiditate magni
+            ipsam soluta esse perferendis neque ullam quibusdam id consequuntur odit cum iste voluptatum molestiae.
+            Voluptatibus, cumque quae iusto et consequatur laborum. Rerum cum aut, iusto illum aliquam possimus
+            voluptatum ipsum? Facilis laboriosam dolorum nihil sapiente, adipisci quaerat ipsa ullam, consequuntur, aut
+            possimus deleniti commodi reiciendis.</p>
+    </section>
+    <hr>
+
+    <section>
+        <p style="color:aquamarine;" class="cls5" id="id5">
+            Here all selectors is applied on the paragraph such as inline,class,id,element tag and important tag as
+            well.but css selects the important tag only as bcoz it has higher priority than all other tags
+        </p>
+    </section>
+
+
+</body>
+
+</html>

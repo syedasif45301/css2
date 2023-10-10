@@ -1,0 +1,63 @@
+*{
+    background-color:antiquewhite;
+    font-size: medium;
+
+}
+
+h1{
+    color:brown;
+    font-style: italic;
+}
+
+.cls{
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+#id{
+    color:skyblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cls1{
+    color:aliceblue;
+}
+
+#id1{
+    color:cadetblue;
+}
+
+h5{
+    color: blueviolet;
+}
+
+button{
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: rgb(4, 78, 78);
+    color:aliceblue;
+}
+
+#id3:active{
+    text-transform: capitalize;
+}
+
+#id4::first-line{
+    color:coral;
+}
+
+.cls5{
+    color:blue;
+}
+
+#id5{
+
+    color:aqua;
+}
+
+#id5{
+    color:cornflowerblue !important;
+}
